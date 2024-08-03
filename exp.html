@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="/home/user/Downloads/download.jpeg"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="cta-button">Call to action</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>The future of web design, today</h1>
+        <img src="/home/user/Downloads/download.jpeg">
+        <button class="cta-button">Call to action</button>
+    </section>
+
+    <section class="download">
+        <p>Dont forget to grab this one, its free!</p>
+        <h2>Download the Ultimate con tomate guide.</h2>
+        <button class="cta-button">Call to action</button>
+    </section>
+
+    <section class="mission">
+        <h2>What we do</h2>
+        <p>Our mission is very important to the planet: we plant as many trees as possible.</p>
+        <ul>
+            <li><img src="/home/user/Downloads/download.jpeg" width="20" height="20" />   We recycle everything we see</li>
+            <li><img src="/home/user/Downloads/download.jpeg" width="20" height="20" />   We teach people how to reuse their stuff</li>
+            <li><img src="/home/user/Downloads/download.jpeg" width="20" height="20" />   We believe in human beings as problem solvers</li>
+        </ul>
+    </section>
+
+    <section class="featured">
+        <h2>Featured things</h2>
+        <p>Our mission is very important to the planet: we plant as many trees as possible. <br/>Can you figure out?</p>
+    </section>
+    <section class="featuredimgone">
+        <img src="/home/user/Downloads/download.jpeg" width="200" height="200" /> 
+        <h2>The Future of Web Design Today</h2>
+        <button class="cta-button">Call to action</button>
+    </section>
+
+    <section class="featuredimgtwo">
+        <img src="/home/user/Downloads/download.jpeg" width="200" height="200" />
+        <h2>The Future of Web Design Today</h2>
+        <button class="cta-button">Call to action</button>
+    </section>
+
+    <section class="featuredimgthree">
+        <img src="/home/user/Downloads/download.jpeg" width="200" height="200" />
+        <h2>The Future of Web Design Today</h2>
+        <button class="cta-button">Call to action</button>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <p>Stay in contact</p>
+            <p>info@contact.com</p>
+            <p>+34 654 654 654</p>
+        </div>
+        <div class="newsletter">
+            <p>Subscribe now to the newsletter</p>
+            <form>
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+                <label>
+                    <input type="checkbox"> I consent to the privacy policy
+                </label>
+                <button type="submit">Subscribe!</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>Basic Components © 2022. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Cookies</a> <a href="#">Legal Advice</a> <a href="#">FAQ</a> Made by Rather</p>
+        </div>
+    </footer>
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: left;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.download{
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.mission{
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.featured {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.featuredimgone {
+    text-align: left;
+}
+
+.featuredimgtwo {
+    text-align: center;
+}
+
+.featuredimgthree {
+    text-align: right;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info, .newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.footer-bottom {
+    font-size: 0.8em;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+</style>
+</html>
